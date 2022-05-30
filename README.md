@@ -1,16 +1,16 @@
-# wordle-solver
+# Wordle Solver
 
 A simple program to solve 5-letter Wordle.
 
-## Installation
+## Building
 
-Requires Java installed.
+Requires Java and Leinigen installed.
 
-Just download the JAR.
+lein uberjar
 
 ## Usage
 
-    $ java -jar wordle-solver-0.1.0-standalone.jar
+    $ java -jar target/uberjar/wordle-solver-0.1.0-standalone.jar
 
 The program will prompt for the 5-character pattern:
 
